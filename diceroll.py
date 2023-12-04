@@ -13,7 +13,7 @@ computerNumber = random.randint(1,10)
 print ("The computer number is: " + str(computerNumber))
 print ("The result is: " + str(diceValue))
 
-def main():
+def diceDecision():
     if (diceValue == number):
         result1 = "Congrats, you won!"
         return result1
